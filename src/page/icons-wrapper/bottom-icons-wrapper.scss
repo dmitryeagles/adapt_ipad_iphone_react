@@ -1,0 +1,134 @@
+@media screen and (min-width: 1024px) {
+  .IconBottomItem {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    backdrop-filter: blur(5px);
+  }
+
+  .iconBottomBox {
+    display: flex;
+    height: 90px;
+    position: relative;
+    justify-content: center;
+  }
+
+  .iconBottomBox img {
+    width: 70px;
+    cursor: pointer;
+  }
+
+  .imgPopap {
+    width: 120px;
+  }
+
+  .iconBottomBox p {
+    position: absolute;
+    bottom: 5px;
+    cursor: pointer;
+    font-size: 11px;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .IconBottomItem {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 30px;
+    backdrop-filter: blur(5px);
+  }
+
+  .iconBottomBox {
+    display: flex;
+    height: 95px;
+    position: relative;
+    justify-content: center;
+  }
+
+  .iconBottomBox img {
+    width: 70px;
+    cursor: pointer;
+  }
+
+  .iconBottomBox p {
+    position: absolute;
+    bottom: 5px;
+    cursor: pointer;
+    font-size: 11px;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 568px) and (max-width: 768px) {
+  .IconBottomItem {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    backdrop-filter: blur(5px);
+  }
+
+  .iconBottomBox {
+    display: flex;
+    height: 80px;
+    position: relative;
+    justify-content: center;
+  }
+
+  .iconBottomBox img {
+    width: 60px;
+    cursor: pointer;
+  }
+
+  .iconBottomBox p {
+    position: absolute;
+    bottom: 5px;
+    cursor: pointer;
+    font-size: 11px;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 568px) {
+  .IconBottomItem {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    backdrop-filter: blur(5px);
+  }
+
+  .iconBottomBox {
+    display: flex;
+    height: 95px;
+    position: relative;
+    justify-content: center;
+  }
+
+  .iconBottomBox img {
+    width: 70px;
+    cursor: pointer;
+  }
+
+  .iconBottomBox p {
+    position: absolute;
+    bottom: 5px;
+    cursor: pointer;
+    font-size: 11px;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .IconBottomItem {
+    display: none;
+  }
+
+  .iconBottomBox {
+    display: none;
+  }
+
+  .iconBottomBox img {
+    display: none;
+  }
+
+  .iconBottomBox p {
+    display: none;
+  }
+}

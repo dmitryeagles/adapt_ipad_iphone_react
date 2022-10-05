@@ -1,0 +1,214 @@
+@media screen and (min-width: 1024px) {
+
+  .container {
+    position: absolute;
+    margin: 0 auto;
+    background-image: url("../../../public/images/ipad-mini-horizontal.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    width: 1500px;
+    height: 1250px;
+
+  }
+
+  .container img {
+    z-index: 2;
+    position: absolute;
+  }
+
+  .IconsWrapper{
+    margin-top: -20px;
+  }
+
+  .homeScreenBackground {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 356px;
+    left: 387px;
+    width: 716px;
+    height: 537px;
+    padding: 20px;
+    padding-top: 5px;
+    background-image: url("../../../public/images/background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-size: cover;
+    justify-content: space-between
+  }
+
+  .date{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .container {
+    position: absolute;
+    margin: 0 auto;
+    background-image: url("../../../public/images/ipad-mini-vertifical.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    width: 1250px;
+    height: 1500px;
+
+  }
+
+  .container img {
+    z-index: 2;
+    position: absolute;
+  }
+
+  .IconsWrapper{
+    margin-top: -30px;
+  }
+
+  .homeScreenBackground {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 386px;
+    left: 358px;
+    width: 536px;
+    height: 717px;
+    padding: 20px;
+    padding-top: 5px;
+    background-image: url("../../../public/images/background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-size: cover;
+    justify-content: space-between
+  }
+
+  .date{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    padding-top: 20px;
+  }
+
+}
+
+@media screen and (min-width: 568px) and (max-width: 768px) {
+
+  .container {
+    position: absolute;
+    margin: 0 auto;
+    background-image: url("../../../public/images/iphone5-horizontal.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    width: 1800px;
+    height: 1000px;
+
+  }
+
+  .container img {
+    z-index: 2;
+    position: absolute;
+  }
+
+  .IconsWrapper{
+    margin-top: -10px;
+  }
+
+  .homeScreenBackground {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 280px;
+    left: 501px;
+    width: 793px;
+    height: 444px;
+    padding: 10px;
+    padding-top: 15px;
+    background-image: url("../../../public/images/background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-size: cover;
+    justify-content: space-between
+  }
+
+  .date{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    margin-top: -10px;
+  }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 568px) {
+
+  .container {
+    position: absolute;
+    margin: 0 auto;
+    background-image: url("../../../public/images/iphone5-vertical.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    width: 1000px;
+    height: 1800px;
+
+  }
+
+  .container img {
+    z-index: 2;
+    position: absolute;
+  }
+
+  .IconsWrapper{
+    margin-top: -30px;
+  }
+
+  .homeScreenBackground {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 501px;
+    left: 281px;
+    width: 445px;
+    height: 793px;
+    padding: 21px;
+    padding-top: 35px;
+    background-image: url("../../../public/images/background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-size: cover;
+    justify-content: space-between
+  }
+
+  .date{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+
+  .container {
+    display: none;
+  }
+
+  .container img {
+    display: none;
+  }
+
+  .homeScreenBackground {
+    display: none;
+  }
+
+  .date{
+    display: none;
+  }
+}

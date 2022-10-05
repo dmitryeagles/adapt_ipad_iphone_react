@@ -1,0 +1,121 @@
+@media screen and (min-width: 1024px)  {
+  .iconBox {
+    display: flex;
+    height: 90px;
+    position: relative;
+    justify-content: center;
+
+    img{
+      width: 70px;
+      cursor: pointer;
+    }
+
+    p {
+      position: absolute;
+      bottom: 5px;
+      cursor: pointer;
+      font-size: 11px;
+      color: white;
+    }
+  }
+
+  .imgPopap {
+    width: 150px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .iconBox {
+    display: flex;
+    height: 90px;
+    position: relative;
+    justify-content: center;
+
+    p {
+      position: absolute;
+      bottom: 5px;
+      cursor: pointer;
+      font-size: 11px;
+      color: white;
+    }
+
+    img {
+      width: 70px;
+      cursor: pointer;
+    }
+  }
+
+  .imgPopap {
+    width: 120px;
+  }
+}
+
+@media screen and (min-width: 568px) and (max-width: 768px) {
+  .iconBox {
+    display: flex;
+    height: 80px;
+    position: relative;
+    justify-content: center;
+
+    img {
+      width: 60px;
+      cursor: pointer;
+    }
+
+    p {
+      position: absolute;
+      bottom: 5px;
+      cursor: pointer;
+      font-size: 11px;
+      color: white;
+    }
+  }
+  
+  .imgPopap {
+    width: 130px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 568px) {
+  .iconBox {
+    display: flex;
+    height: 90px;
+    position: relative;
+    justify-content: center;
+
+    img {
+      width: 70px;
+      cursor: pointer;
+    }
+
+    p {
+      position: absolute;
+      bottom: 5px;
+      cursor: pointer;
+      font-size: 11px;
+      color: white;
+    }
+  }
+
+  .imgPopap {
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .iconBox {
+    display: none;
+
+    img {
+      display: none;
+    }
+
+    p {
+      display: none;
+    }
+  }
+
+  .imgPopap {
+    display: none;
+  }
+}

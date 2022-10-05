@@ -1,0 +1,78 @@
+@media screen and (min-width: 1024px) {
+  .IconItems {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+  .paginationPosition {
+    position: absolute;
+    bottom: 115px;
+    width: fit-content;
+    left: 50%;
+    margin-left: -36px;
+
+    button{
+      color: white
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .IconItems {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 10px;
+  }
+
+  .paginationPosition {
+    position: absolute;
+    bottom: 120px;
+    width: fit-content;
+    left: 50%;
+    margin-left: -36px;
+  }
+}
+
+@media screen and (min-width: 568px) and (max-width: 768px) {
+  .IconItems {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+  .paginationPosition {
+    position: absolute;
+    bottom: 85px;
+    width: fit-content;
+    left: 50%;
+    margin-left: -36px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 568px) {
+  .IconItems {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 30px;
+  }
+
+  .paginationPosition {
+    position: absolute;
+    bottom: 130px;
+    width: fit-content;
+    left: 50%;
+    margin-left: -36px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .IconItems {
+    display: none;
+  }
+
+  .paginationPosition {
+    display: none;
+  }
+}
